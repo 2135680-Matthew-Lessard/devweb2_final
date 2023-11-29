@@ -3,3 +3,33 @@ Description: Le theme enfant de mon projet final
 Author: Matthew Lessard
 Template: twentysixteen
  */
+
+.container_grid
+{
+    display: grid;
+    grid-template-areas:
+    "head head head head"
+    "main main main nav"
+    "main main main nav";
+    grid-gap: 10px;
+    background-color: blue;
+}
+
+.sidebar
+{
+    grid-area: nav;
+    margin-left: 0px;
+    margin-bottom: 0em;
+    width: 300px;
+    background-color: #ffa08c;
+}
+
+.head {
+    grid-area: head;
+    background-color: #8ca0ff;
+}
+
+.container_texte {
+    grid-area: main;
+    background-color: #ffff64;
+}
