@@ -3,33 +3,75 @@ Description: Le theme enfant de mon projet final
 Author: Matthew Lessard
 Template: twentysixteen
  */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary{
+    /*display: grid;*/
+}
 
 .container_grid
 {
     display: grid;
+    width: auto;
+    height: auto;
     grid-template-areas:
-    "head head head head"
-    "main main main nav"
-    "main main main nav";
-    grid-gap: 10px;
-    background-color: blue;
+    'header header header'
+    'main main nav'
+    'main main nav';
+    /*background-color: blue;*/
+    gap: 10px;
+}
+
+.container
+{
+    display: contents;
+    width: auto;
+    height: auto;
+    gap: 10px;
+}
+
+.container_sidebar
+{
+    display: grid;
+    grid-area: nav;
+    margin: 0px;
+    width: 400px;
+    padding: 0px;
+    justify-content: center;
+    /*background-color: #ffa08c;*/
 }
 
 .sidebar
 {
-    grid-area: nav;
-    margin-left: 0px;
-    margin-bottom: 0em;
+    margin: 0px;
+    padding: 0px;
     width: 300px;
-    background-color: #ffa08c;
 }
 
 .head {
-    grid-area: head;
-    background-color: #8ca0ff;
+    /*background-color: #8ca0ff;*/
+    grid-area: header;
+    height: auto;
+    width: auto;
 }
 
 .container_texte {
     grid-area: main;
-    background-color: #ffff64;
+    /*background-color: #ffff64;*/
+}
+
+.titrepage
+{
+    background-color: black;
+    height: 5px;
+    width: 1150px;
 }
