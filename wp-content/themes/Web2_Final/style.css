@@ -18,6 +18,32 @@ summary{
     /*display: grid;*/
 }
 
+/*-------- Header -----------*/
+.site-header
+{
+    padding-left: 4.5455%;
+    padding-top: 0px;
+    pading-right: 0px;
+    padding-bottom: 20px;
+}
+
+.head {
+    /*background-color: #8ca0ff;*/
+    grid-area: header;
+    height: auto;
+    width: auto;
+    color: #1e73be;
+}
+
+.titrepage
+{
+    background-color: #1e73be;
+    height: 5px;
+    width: 1230px;
+}
+/*-------- Fin header -----------*/
+
+/*-------- Container principal -----------*/
 .container_grid
 {
     display: grid;
@@ -39,14 +65,21 @@ summary{
     gap: 10px;
 }
 
+.container_texte {
+    grid-area: main;
+    color: #1e73be;
+}
+/*-------- Fin container principal -----------*/
+
+/*-------- Sidebar -----------*/
 .container_sidebar
 {
     display: grid;
     grid-area: nav;
-    margin: 0px;
     width: 400px;
     padding: 0px;
     justify-content: center;
+    position: absolute;
     /*background-color: #ffa08c;*/
 }
 
@@ -55,23 +88,93 @@ summary{
     margin: 0px;
     padding: 0px;
     width: 300px;
+    position: absolute;
+    top: 287px;
+    top: 165px;
+    left: 920px;
+    color: #1e73be;
 }
 
-.head {
-    /*background-color: #8ca0ff;*/
-    grid-area: header;
-    height: auto;
-    width: auto;
+.widget{
+    border-top: 4px solid #1e73be;
 }
 
-.container_texte {
-    grid-area: main;
-    /*background-color: #ffff64;*/
-}
-
-.titrepage
+.widget button
 {
-    background-color: black;
-    height: 5px;
-    width: 1150px;
+    background-color: #1e73be;
 }
+/*-------- Fin sidebar -----------*/
+
+/*-------- Couleur des liens -----------*/
+.site-branding .site-title a {
+    color: #1e73be;
+}
+
+.site-info a:hover, .site-info a:focus {
+    color: #1e73be;
+}
+
+.site-info a {
+    color: #1e73be;
+}
+
+header.entry-header a {
+    color: #1e73be;
+}
+
+/*-------- Fin couleur des liens -----------*/
+
+/*-------- css general -----------*/
+.site{
+    /*background-image: url("img/Volleyball-background-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*/
+}
+
+#page
+{
+    background: black;
+    background: rgba(0, 0, 0, 0);
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+/*-------- Fin css general -----------*/
+
+/*-------- Page des commentaires / Article -----------*/
+.entry-header, .post-thumbnail, .entry-content, .entry-summary, .entry-footer, .comments-area, .image-navigation, .post-navigation, .pagination, .page-header, .page-content, .content-bottom-widgets {
+    margin-right: 0;
+    margin-left: 0;
+    color: #1e73be;
+}
+
+.comment-reply-title, .comments-title
+{
+    border-top: 4px solid #1e73be;
+}
+
+input[type=submit]{
+    background-color: #1e73be;
+}
+
+.post-navigation {
+    border-top: 4px solid;
+    border-bottom: 4px solid;
+    clear: both;
+    font-family: Montserrat, "Helvetica Neue", sans-serif;
+    margin: 0 7.6923% 3.5em;
+}
+
+.post-navigation a {
+    color: #1e73be;
+    display: block;
+    padding: 1.75em 0;
+}
+
+a hover{
+    color: #1e73be;
+}
+/*-------- Fin page des commentaires -----------*/

@@ -20,7 +20,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wp_siteweb_final' );
+define( 'DB_NAME', '2023_LessardMatthew' );
 
 /** Database username */
 define( 'DB_USER', 'test1' );
@@ -65,7 +65,7 @@ define( 'NONCE_SALT',       '?&&VRzZQ?y`L~3U6A|;N?t!&@q)]:v&;JTqu(R.B4?+B~l0Aoy1
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'wp_';
+$table_prefix = 'atm_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -79,7 +79,9 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/documentation/article/debugging-in-wordpress/
  */
+
 define( 'WP_DEBUG', false );
+define('WP_DEBUG_LOG', false);
 
 /* Add any custom values between this line and the "stop editing" line. */
 

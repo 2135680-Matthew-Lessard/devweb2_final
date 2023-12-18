@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f813de7d-892c-4345-b446-104dc405db4b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/Web2_Final/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/Web2_Final/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/Web2_Final/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/Web2_Final/style.css" afterDir="false" />
     </list>
@@ -40,8 +41,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wordpress" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lessardmatthew-pensebete" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files\Ampps\www\devweb2_final\wp-content\themes\Web2_Final\img" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -52,7 +58,9 @@
       <option name="presentableId" value="Default" />
       <updated>1701272590083</updated>
       <workItem from="1701272593234" duration="9709000" />
-      <workItem from="1701699841102" duration="9936000" />
+      <workItem from="1701699841102" duration="10025000" />
+      <workItem from="1701781882107" duration="3344000" />
+      <workItem from="1702598347451" duration="21677000" />
     </task>
     <servers />
   </component>
