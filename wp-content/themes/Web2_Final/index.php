@@ -50,7 +50,7 @@ get_header();
                         wp_reset_postdata();
                     } else {
                         echo "<div class='message-erreur'>Nous sommes désolés, un problème technique nous empêche de retrouver les données (code 2).</div>";
-                        echo_debug($stmt->error);
+                        echo_debug($query->error);
                     }
                     ?>
             </div>
